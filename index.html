@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    
+                    colors: {
+                        principal: '#2E1012',
+                        amarelo: '#F3CC4D'
+                    },
+                    fontFamily: {
+                        inter: ['Indie Flower', 'cursive']    
+                    },
+                    spacing:{
+                        ll: '120px'
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+<body class="
+bg-principal
+font-inter
+flex
+justify-center
+items-center
+">
+<div class="
+    flex
+    fixed
+    justify-center
+    w-full
+    ">
+    <img src="./img/background.svg" alt="">
+</div>
+<section class="
+lg:w-4/12
+h-screen
+flex
+justify-center
+items-center
+z-10
+">
+<img src="./img/left.png" alt="">
+</section>
+
+
+
+<div class="
+    flex
+    fixed
+    justify-center
+    opacity-30
+    lg:hidden
+">
+<img src="./img/left.png" alt="">
+  
+</div>
+<section class="
+bg-amarelo
+h-screen
+lg:w-4/12
+z-10
+">
+<div class="p-7 pb-14 lg:p-24">
+    <img src="./img/back.png" alt="">
+</div>
+<p class="
+px-7
+text-center
+text-2xl
+lg:text-3xl
+lg:pb-16
+">
+    Ferrero Rocher oferece uma experiência de sabor incomparável de contraste de camadas: uma avelã inteira no meio, um delicioso recheio cremoso de avelã, um wafer crocante coberto com chocolate e pedacinhos de avelã.
+</p>
+<div class="
+flex
+justify-center
+pt-10
+">
+    <button class="bg-principal
+    text-white
+    w-100
+    text-4xl
+    py-7
+    px-16
+    ">
+        Saiba mais
+    </button>
+</div>
+</section>
+<section class="
+lg:w-4/12
+h-screen
+flex
+justify-center
+items-center
+z-10
+">
+<img src="./img/right.png" alt="">
+</section>
+    
+</body>
+</html>
